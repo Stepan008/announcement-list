@@ -1,0 +1,70 @@
+.announcement-details {
+    margin: 10px 0;
+    border-radius: 3px;
+    min-height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    background-color: white;
+
+    div.see-also {
+        margin-right: 30px;
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        span.see-also {
+            line-height: 30px;
+            color: #17a3b8c2;
+        }
+
+        ul {
+            list-style:none;
+            padding: 0;
+            margin: 0;
+
+            li {
+                margin: 5px 0;
+                line-height: 25px;
+                width: 200px;
+                text-align: center;
+                border-radius: 4px;
+            }
+        }
+    }
+
+    .announcement-field {
+        
+        span {
+            margin-left: 30px;
+
+            &.date-field {
+                color: #196b77;
+                font-size: 14px;
+            }
+        }
+
+        &.title  {
+            display: inline;
+            
+            span {
+                font-size: 26px;
+                &:hover {
+                    text-decoration: underline;
+                    cursor: pointer;
+                }
+            }
+    
+            button {
+                margin: 5px;
+            }
+        }
+    }
+
+    .item-edit-form{
+        input, button {
+            margin: 5px;
+        }
+    }
+}
